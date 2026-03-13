@@ -17,7 +17,9 @@
       "Bash(python -m pytest:*)",
       "Bash(python3 -m pytest:*)",
       "WebFetch(domain:docs.anthropic.com)",
-      "WebFetch(domain:github.com)"
+      "WebFetch(domain:github.com)",
+      "WebSearch",
+      "Bash(cd /data00/home/wangzihao.001/workspace/Context-Engineering-Intro/docugen && uv run ruff check app/ --fix 2>&1 | head -50)"
     ],
     "deny": []
   }
